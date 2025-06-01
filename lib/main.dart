@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system, // Auto-switch based on system setting
       theme: AppThemes.lightTheme,
-      //darkTheme: AppThemes.darkTheme,
+      darkTheme: AppThemes.darkTheme,
       home: const SignInScreen(),  //Sign Page
     );
   }
